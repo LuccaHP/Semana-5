@@ -124,6 +124,37 @@ Criando e manipulando Animais:
 
 Dica: Utilize `console.log()` para exibir as informações!
 
+```javascript
+class Animal{
+    constructor (nome, idade){
+        this.nome = nome;
+        this.idade = idade;
+    }
+}
+    class Cachorro extends Animal {
+        constructor (nome, idade){
+        super (nome, idade);
+        }
+        descrever(){
+        console.log(`O nome do animal é ${this.nome} e ele tem ${this.idade} anos de idade`)
+    }
+    }
+
+    class Gato extends Animal {
+        constructor (nome, idade){
+        super (nome, idade);
+        }
+        descrever(){
+          console.log(`O nome do animal é ${this.nome} e ele tem ${this.idade} anos de idade`)
+        }
+    }
+    let Cachorro1 = new Cachorro("Alberto", 10);
+    Cachorro1.descrever()
+
+    let Gato1 = new Gato("Josefina", 5);
+    Gato1.descrever()
+```
+
 ---
 
 **8)** Nos últimos dias tivemos a oportunidade de ter contato com Programação Orientada a Objetos, e tivemos contato com o tema "herança". Herança é um princípio de orientação a objetos, que permite que classes compartilhem atributos e métodos. Ela é usada na intenção de reaproveitar código ou comportamento generalizado ou especializar operações ou atributos. Então vamos praticar esse conteúdo nessa questão.
@@ -153,6 +184,7 @@ Chamando os Métodos:
 
 Dica: Utilize console.log() para exibir as informações!
 
+
 ---
 
 **9)** Vamos criar um programa em JavaScript para somar notas!
@@ -177,6 +209,25 @@ Chamando o Método para Ver o Total:
 - Após adicionar todas as notas, chame um método verTotal() para exibir o total das notas adicionadas.
 
 Dica: Utilize console.log() para exibir as informações!
+
+```javascript
+class SomadorDeNotas{
+    constructor (){
+        this.total = 0
+    }
+    adicionarNota(nota){
+        this.total += nota
+    } 
+    verTotal(){
+        console.log("O total das notas é: ", this.total)
+    }
+}
+
+ let somador = new SomadorDeNotas()
+ somador.adicionarNota(10);
+ somador.adicionarNota(8);
+ somador.verTotal();
+```
 
 ---
 
