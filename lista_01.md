@@ -25,7 +25,7 @@ print(a);
 
 Escolha a opção que responde corretamente:
 
-``a) Imprime os números pares de 1 a 10.``
+`a) Imprime os números pares de 1 a 10.`
 
 b) Imprime os números ímpares de 1 a 10.
 
@@ -41,7 +41,7 @@ d) Imprime os números ímpares de 2 a 10.
 
 No lugar onde está escrito “// linha” qual das opções abaixo deve estar para funcionar corretamente o código?
 
-``A) let carro = new Carro("Toyota");``
+`A) let carro = new Carro("Toyota");`
 
 B) let ligar = new ligar("Toyota");
 
@@ -57,7 +57,7 @@ D) carro1.ligar();
 
 Escolha a opção que responde corretamente:
 
-``A) 18``
+`A) 18`
 
 B) 16
 
@@ -69,7 +69,7 @@ D) 12
 
 **4)** Como você criaria um método `acelerar()` em uma classe `Carro`, que recebe um parâmetro `velocidade` e o adiciona a um atributo `velocidadeAtual`?
 
-``A) ![Uma imagem](assets/ex04_1.PNG)``
+`A) ![Uma imagem](assets/ex04_1.PNG)`
 
 B) ![Uma imagem](assets/ex04_2.PNG)
 
@@ -81,7 +81,7 @@ D) ![Uma imagem](assets/ex04_4.PNG)
 
 **5)** Qual a forma correta de definir uma classe Carro em JavaScript, com um método ligar() e um atributo marca?
 
-A) ![Uma imagem](assets/ex05_1.PNG)
+`A) ![Uma imagem](assets/ex05_1.PNG)`
 
 B) ![Uma imagem](assets/ex05_2.PNG)
 
@@ -97,7 +97,7 @@ D) ![Uma imagem](assets/ex05_4.PNG)
 
 Qual será a saída do código acima?
 
-A) "Olá, meu nome é João. Olá, meu nome é Maria."
+``A) "Olá, meu nome é João. Olá, meu nome é Maria."``
 
 B) "Olá, meu nome é ."
 
